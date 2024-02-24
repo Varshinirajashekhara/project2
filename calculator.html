@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="cal.js"></script>
+    <div class="container bg-info border-4">
+      <h1>CALCULATOR</h1>
+      <input
+        id="input-1"
+        type="number"
+        name="num1"
+        placeholder="Enter the number"
+      />
+      <input
+        id="input-2"
+        type="number"
+        name="num2"
+        placeholder="Enter the number"
+      /><br />
+      <button type="button" onclick="addition()" class="btn btn-primary">
+        Addition
+      </button>
+      <button type="button" onclick="subtraction()" class="btn btn-success">
+        subtraction
+      </button>
+      <button type="button" onclick="multiplication()" class="btn btn-danger">
+        Multiplication
+      </button>
+      <button type="button" onclick="division()" class="btn btn-warning">
+        Division
+      </button>
+    </div>
+    <textarea name="result" id="result" cols="30" rows="5"></textarea>
+  </body>
+</html>
